@@ -2,6 +2,14 @@
 defineProps<{
   msg: string
 }>()
+
+// export default {
+//   data() {
+//     return {
+//       message: ''
+//     }
+//   }
+// }
 </script>
 
 <template>
@@ -12,6 +20,7 @@ defineProps<{
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
     </h3>
+    <!-- <p>Message is: {{ message }}</p> -->
   </div>
 </template>
 
