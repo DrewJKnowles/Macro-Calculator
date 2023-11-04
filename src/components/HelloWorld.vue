@@ -18,6 +18,16 @@ defineProps<{
     <h3>
       This is with for description of seekshape and hopefully call to actions.
     </h3>
+
+    <p> What is your age? </p>
+    <input placeholder="edit me" />
+
+    <p> Weight </p>
+    <input placeholder="edit me" />
+
+
+    <p> Height </p>
+    <input placeholder="edit me" />
   </div>
 </template>
 
