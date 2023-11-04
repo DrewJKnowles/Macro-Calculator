@@ -28,6 +28,34 @@ defineProps<{
 
     <p> Height </p>
     <input placeholder="edit me" />
+
+    <p> Activity Level </p>
+    <input type="checkbox" id="jack" value="Jack">
+    <label for="jack">Jack</label>
+
+    <input type="checkbox" id="john" value="John">
+    <label for="john">John</label>
+
+    <input type="checkbox" id="mike" value="Mike">
+    <label for="mike">Mike</label>
+
+    <p> Gender </p>
+    <input type="checkbox" id="jack" value="Jack">
+    <label for="jack">Male</label>
+
+    <input type="checkbox" id="jack" value="Jack">
+    <label for="jack">Female</label>
+
+
+    <p> Goal </p>
+    <input type="checkbox" id="jack" value="Jack">
+    <label for="jack">Lose Weight</label>
+
+    <input type="checkbox" id="jack" value="Jack">
+    <label for="jack">Gain Weight</label>
+
+    <input type="checkbox" id="jack" value="Jack">
+    <label for="jack">Maintain</label>
   </div>
 </template>
 
