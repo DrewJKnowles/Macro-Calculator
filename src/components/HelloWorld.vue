@@ -1,7 +1,14 @@
 <script setup lang="ts">
+import { ref } from 'vue';
+
 defineProps<{
   msg: string
 }>()
+
+const activityLevel = ref("")
+const height = ref("")
+const weight = ref("")
+const age = ref("")
 
 // export default {
 //   data() {
@@ -20,20 +27,20 @@ defineProps<{
     </h3>
 
     <p> What is your age? </p>
-    <input placeholder="edit me" />
+    <input v-model="age" placeholder="Your Age" />
 
     <p> Weight </p>
-    <input placeholder="edit me" />
+    <input v-model="weight" placeholder="Your Weight" />
 
 
     <p> Height </p>
-    <input placeholder="edit me" />
+    <input v-model="height" placeholder="Your Height" />
 
     <p> Activity Level </p>
     <input type="checkbox" id="jack" value="Jack">
     <label for="jack">Jack</label>
 
-    <input type="checkbox" id="john" value="John">
+    <input v-model="activityLevel" type="checkbox" id="john" value="John">
     <label for="john">John</label>
 
     <input type="checkbox" id="mike" value="Mike">
