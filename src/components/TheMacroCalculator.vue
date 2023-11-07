@@ -8,15 +8,11 @@ defineProps<{
 const activityLevel = ref("")
 const height = ref("")
 const weight = ref("")
+const gender = ref("")
 const age = ref("")
 
-// export default {
-//   data() {
-//     return {
-//       message: ''
-//     }
-//   }
-// }
+console.log(gender, "<--- gender");
+
 </script>
 
 <template>
@@ -25,6 +21,13 @@ const age = ref("")
     <h3>
       This is with for description of seekshape and hopefully call to actions.
     </h3>
+
+    <p> Gender </p>
+    <input type="radio" v-model="gender" id=male value="male">
+    <label for="jack">Male</label>
+
+    <input type="radio" v-model="gender" id="female" value="female">
+    <label for="jack">Female</label>
 
     <p> What is your age? </p>
     <input v-model="age" placeholder="Your Age" />
@@ -45,14 +48,6 @@ const age = ref("")
 
     <input type="checkbox" id="mike" value="Mike">
     <label for="mike">Mike</label>
-
-    <p> Gender </p>
-    <input type="checkbox" id="jack" value="Jack">
-    <label for="jack">Male</label>
-
-    <input type="checkbox" id="jack" value="Jack">
-    <label for="jack">Female</label>
-
 
     <p> Goal </p>
     <input type="checkbox" id="jack" value="Jack">
