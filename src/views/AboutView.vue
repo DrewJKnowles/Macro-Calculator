@@ -14,7 +14,39 @@
       <input placeholder="edit me" />
       <br>
 
-      <input type="checkbox" name="" value="Jack"/>
+      <label>GENDER</label>
+      <br>
+      <input type="button" name="" value="Female"/>      
+      <input type="button" name="" value="Male"/>
+      <br>
+
+
+      <label>Unit</label>
+      <br>
+      <input type="button" name="" value="Female"/>      
+      <input type="button" name="" value="Male"/>
+      <br>
+      <br>
+      <label>Age </label>
+      <input placeholder="edit me" />
+
+      <!-- If Unit will be Feet display two if Unit is cm then just one input fields -->
+      <label>Hight </label>
+      <input placeholder="edit me" />
+      <input placeholder="edit me" />
+      <br>
+
+      <label>Activity Level</label>
+      <br>
+      <input type="button" name="" value="Female"/>      
+      <input type="button" name="" value="Male"/>
+      <br>
+
+      <label>Goal</label>
+      <br>
+      <input type="button" name="" value="Female"/>      
+      <input type="button" name="" value="Male"/>
+      <br>
   </div>
 </template>
 
@@ -25,5 +57,9 @@
     /* display: flex; */
     align-items: center;
   }
+}
+
+.label {
+padding-right: 30px;
 }
 </style>
